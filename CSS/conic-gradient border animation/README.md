@@ -1,1 +1,1 @@
-
+This animation was a first attempt at making a conic-gradient animation utilizing CSS's experimental @propery function. This animation add's flare to cards but I think would be a nice addition to buttons with a .button::hover effect, although I need to figure out how to properly do that. When I do it will be added to my CSS folder or used in future projects.
