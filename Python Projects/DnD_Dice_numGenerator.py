@@ -44,7 +44,14 @@ while True:
         for i in playerChoice:
             dice = diceMap[i]
             result = random.choice(dice)
+            
             print(f'You rolled d{len(dice)}: {result}')
+            
+            #Critical Hit or Critical Fail logic
+            if len(dice) == 20 and result == 20:
+                print('***You hit a Natural 20! Critical hit!***')
+            elif result == 1:
+                print('Oh no! You rolled a critical fail!')
         
         #Play again prompt/input validation
         while True:
