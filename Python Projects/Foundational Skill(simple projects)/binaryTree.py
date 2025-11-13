@@ -1,6 +1,6 @@
 # Binary Tree is a non-linear and hierarchical data structure where each node has at most two children referred to as the left child and the right child.  The topmost node in a binary tree is called the root, and the bottom-most nodes are called leaves.
 
-#This script follows the geeksforgeeks tutorial on binary tree and search algorithms
+#This script follows the geeksforgeeks tutorial on binary tree and traversal algorithms
 
 #This is the starting code to declare a node of a binary tree
 class Node:
